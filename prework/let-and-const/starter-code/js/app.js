@@ -37,7 +37,7 @@ function displayPics(){
   }
   console.log(rando);
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
-  // PUT YOUR RESPONSE IN THIS COMMENT
+  // scope of a variable defined with `let` is limited to the block in which it is declared while variable declared with `var` has the global scope.
   console.log(viewed);
 
   for (var i = 0; i < 3; i++){
