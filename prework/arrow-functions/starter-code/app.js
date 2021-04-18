@@ -120,7 +120,7 @@ let objectLit = function() {
   return {
     key1: 'value1',
     key2: 'value2',
-    key3: 'value3',
+    key3: 'value3'
   };
 };
 
@@ -128,7 +128,7 @@ let objectLit = function() {
 console.log(objectLit());
 
 
-let sumAndProduct = function(a, b) {
+let sumAndProduct = (a, b)=> {
   let sum = a + b;
   let product = a * b;
   return [sum, product];
@@ -138,7 +138,7 @@ let sumAndProduct = function(a, b) {
 console.log(sumAndProduct(3, 9));
 
 
-let message = function(name) {
+let message = (name)=>{
   return `Hello, ${name}!`;
 };
 
