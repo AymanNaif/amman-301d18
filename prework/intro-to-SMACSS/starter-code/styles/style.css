@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Abel|Oswald:700|Yellowtail|Patrick+Hand');
+@import url("https://fonts.googleapis.com/css?family=Abel|Oswald:700|Yellowtail|Patrick+Hand");
 
 * {
   font-family: times;
@@ -8,7 +8,10 @@ body {
   background: #fff;
 }
 
-nav, article, aside, footer section {
+nav,
+article,
+aside,
+footer section {
   margin: 0 auto;
   width: 900px;
 }
@@ -30,7 +33,7 @@ nav {
 
 #logo h1 {
   padding-left: 50px;
-  font-family: 'Yellowtail', cursive;
+  font-family: "Yellowtail", cursive;
   font-size: 2.4em;
 }
 
@@ -38,8 +41,8 @@ nav {
   width: 250px;
   padding-left: 55px;
   color: #a3a4a2;
-  font-family: 'Abel', sans-serif;
-  font-size: .65em;
+  font-family: "Abel", sans-serif;
+  font-size: 0.65em;
   text-transform: uppercase;
 }
 
@@ -56,19 +59,20 @@ hr {
   clear: both;
   border: 0;
   height: 13px;
-  background-image: url('../img/hr.png');
+  background-image: url("../img/hr.png");
 }
 
 h2 {
   margin-top: 50px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 2.5em;
 }
 
-.print, .date {
+.print,
+.date {
   color: #a9a8a5;
-  font-family: 'Abel', sans-serif;
-  font-size: .8em;
+  font-family: "Abel", sans-serif;
+  font-size: 0.8em;
   margin: 0;
   text-transform: uppercase;
   margin-top: 10px;
@@ -98,12 +102,12 @@ main p {
 }
 
 input {
-  font-family: 'Patrick Hand', cursive;
+  font-family: "Patrick Hand", cursive;
 }
 
 .recipe {
-  letter-spacing: .1em;
-  font-family: 'Patrick Hand', cursive;
+  letter-spacing: 0.1em;
+  font-family: "Patrick Hand", cursive;
   color: #666a42;
   background-image: url("img/list-bg.png");
   height: 260px;
@@ -120,7 +124,7 @@ input {
 
 aside {
   padding-top: 30px;
-  padding-bottom: 60px
+  padding-bottom: 60px;
 }
 
 aside img {
@@ -139,12 +143,11 @@ aside p {
   width: 65%;
   margin: 0;
   text-indent: 0;
-
 }
 
 aside button {
   float: right;
-  font-family: 'Abel', sans-serif;
+  font-family: "Abel", sans-serif;
   text-transform: uppercase;
   padding: 15px 40px;
   background: #b8705a;
@@ -158,13 +161,9 @@ section hr {
   height: 0;
 }
 
-
-footer section p{
+footer section p {
   padding: 50px 0;
   line-height: 1.5em;
   text-align: center;
   color: #aaa;
-}
-
-
 }
